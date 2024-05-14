@@ -86,6 +86,53 @@ main {
 .main__p {
   font-size: 30px;
 }
+.h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f2f2f2;
+  margin-top: 150px;
+  font-size: 40px;
+}
+.carroPopulares {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  text-align: center;
+  margin-top: 64px;
+}
+
+.carroPopulares > div {
+  background-color: #fffdfd;
+  width: 450px;
+  height: 300px;
+  border-radius: 8px;
+}
+.carro1 img,
+.carro2 img,
+.carro3 img,
+.carro4 img {
+  margin-top: 35px;
+  border-bottom: 1px solid rgb(150, 150, 150);
+  flex-direction: column;
+}
+.carroPopulares_p {
+  margin-top: 30px;
+}
+.botaoCompra {
+  margin-top: 30px;
+  background-color: #007bff; /* Cor de fundo azul */
+  color: #ffffff; /* Cor do texto branco */
+  padding: 10px 20px; /* Espaçamento interno */
+  font-size: 16px; /* Tamanho da fonte */
+  border: none; /* Sem borda */
+  border-radius: 5px; /* Borda arredondada */
+  cursor: pointer; /* Cursor de mão ao passar */
+}
+.botaoCompra:hover {
+  background-color: #0056b3; /* Cor de fundo azul mais escura ao passar o mouse */
+}
 .footer {
   margin-top: 220px;
   color: #fcfcfc;
