@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+  box-sizing: border-box;
+}
+.main_login {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-login {
+  background-color: antiquewhite;
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.left-login h1 {
+  font-size: 3vw;
+  color: rgb(0, 126, 165);
+}
+.image {
+  width: 35vw;
+}
+.right-login {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-usuario {
+  width: 60%;
+  background: #303030;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px #00000056;
+}
+.card-usuario h2 {
+  color: rgb(0, 126, 165);
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.textfield {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.textfield input {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: rgb(0, 126, 165);
+  color: rgb(218, 218, 218);
+  box-shadow: 0px 10px 40px #00000056;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.textfield label {
+  color: rgb(218, 218, 218);
+  margin-bottom: 10px;
+}
+
+.textfield input::placeholder {
+  color: rgb(218, 218, 218);
+}
+
+.btn-login {
+  width: 100%;
+  padding: 16px 0px;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ffffff;
+  background-color: rgb(0, 126, 165);
+  cursor: pointer;
+  font-weight: 800;
+}
+.btn-login a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.btn-login:hover {
+  width: 100%;
+  padding: 16px 0px;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ffffff;
+  background-color: rgb(0, 107, 139);
+  cursor: pointer;
+  font-weight: 800;
+  box-shadow: 0px 10px 40px -12px #00879952;
+}
