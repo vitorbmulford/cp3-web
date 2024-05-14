@@ -122,16 +122,16 @@ main {
 }
 .botaoCompra {
   margin-top: 30px;
-  background-color: #007bff; /* Cor de fundo azul */
-  color: #ffffff; /* Cor do texto branco */
-  padding: 10px 20px; /* Espaçamento interno */
-  font-size: 16px; /* Tamanho da fonte */
-  border: none; /* Sem borda */
-  border-radius: 5px; /* Borda arredondada */
-  cursor: pointer; /* Cursor de mão ao passar */
+  background-color: rgb(0, 126, 165); 
+  color: #ffffff; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
 }
 .botaoCompra:hover {
-  background-color: #0056b3; /* Cor de fundo azul mais escura ao passar o mouse */
+  background-color: rgb(0, 104, 136); 
 }
 .footer {
   margin-top: 220px;
