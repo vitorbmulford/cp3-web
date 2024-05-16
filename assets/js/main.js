@@ -30,9 +30,9 @@ function validar() {
 
 // Slide show
 let imagens = [
-  "../assets/img/convite.png",
-  "../assets/img/convite2.png",
-  "../assets/img/convite3.png",
+  "../img/convite.png",
+  "../img/convite2.png",
+  "../img/convite3.png",
 ];
 let index = 0;
 let time = 3000;
@@ -48,7 +48,6 @@ function slideShow() {
 }
 
 slideShow();
-
 slideShow();
 window.addEventListener("load", function () {
   alert("Bem-vindo à nossa página!");
