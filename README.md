@@ -33,7 +33,7 @@ Desenvolvimento e Organização
 Equipe: O projeto foi desenvolvido por uma equipe colaborativa, com todos os membros realizando commits regulares.
 
 Repositório Git: Link para o Repositório
-GitHub Pages: Link para o Site
+GitHub Pages: https://vitorbmulford.github.io/cp3-web/
 
 
 Tecnologias Utilizadas
