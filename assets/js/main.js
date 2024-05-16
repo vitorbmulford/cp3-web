@@ -30,9 +30,9 @@ function validar() {
 
 // Slide show
 let imagens = [
-  "/assets/img/convite.png",
-  "/assets/img/convite2.png",
-  "/assets/img/convite3.png",
+  "/cp3-web/assets/img/convite.png",
+  "/cp3-web/assets/img/convite2.png",
+  "/cp3-web/assets/img/convite3.png",
 ];
 let index = 0;
 let time = 3000;
@@ -46,6 +46,8 @@ function slideShow() {
   }
   setTimeout(slideShow, time);
 }
+
+slideShow();
 
 slideShow();
 window.addEventListener("load", function () {
