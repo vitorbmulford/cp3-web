@@ -1,6 +1,6 @@
 Contribuidores Este projeto foi desenvolvido com os seguintes membros:
 
-RM555206 - Milton Cezar Backanieski RM555026 - Vitor Bebiano Mulford RM54901 - Lorenzo Hayashi Mangini
+RM555206 - Milton Cezar Backanieski RM555026 - Vitor Bebiano Mulford RM554901 - Lorenzo Hayashi Mangini
 
 
 LCV - Loja de Carros Virtuais
